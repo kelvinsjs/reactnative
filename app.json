@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "schedule",
-    "slug": "schedule",
-    "version": "1.0.0",
+    "name": "Schedule",
+    "slug": "Schedule",
+    "version": "1.2.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#5baaed"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,9 +21,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.Schedule.Schedule"
     },
     "web": {
       "favicon": "./assets/favicon.png"
